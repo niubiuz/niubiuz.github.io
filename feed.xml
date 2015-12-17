@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>jiangwei的极简博客</title>
+        <description>极简博客是一个简单易用的Markdown博客系统</description>
+        <link>http://jw.dazuxinxin.com</link>
+        <atom:link href="http://jw.dazuxinxin.com/feed.xml" rel="self" type="application/rss+xml" />
+        <pubDate>2015-12-17 12:12:26</pubDate>
+        <lastBuildDate>2015-12-17 12:12:26</lastBuildDate>
+        <generator>Gitblog v1.0</generator>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-18
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:39:41</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_2_5.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_2_5.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-16
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:38:23</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_2_4.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_2_4.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-15
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:38:18</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_2_2.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_2_2.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-14
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:38:16</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_2_0.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_2_0.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-12
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:38:21</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_0.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_0.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-09
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[zxy][24]  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;
+&lt;p&gt;[24]: &lt;a href=&quot;http://zxy.link&quot;&gt;http://zxy.link&lt;/a&gt;              。&lt;/p&gt;            </description>
+            <pubDate>2015-12-08 15:26:23</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2_2.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2_2.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>欢迎jiangwei</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-12-08
+title: 欢迎jiangwei
+tags: jiangwei
+category: jiangwei
+status: publish
+summary: 极简博客是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zxy.link&quot;&gt;zxy&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;            </description>
+            <pubDate>2015-12-08 12:36:46</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome_2.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome_2.html</guid>
+                                               <category>jiangwei</category>
+                                    </item>
+                <item>
+            <title>全面删除挂马</title>
+            <description>
+            &lt;!--
+author: jiangwei
+head: http://jw.dazuxinxin.com/logo.png
+date: 2015-12-05
+title: 全面删除挂马
+tags: 删除挂马
+category: 删除挂马
+status: publish
+summary: 要解决这问题除了要删除所有html文件尾的挂马外，还必须得找到产生这玩意的源头木马kill它。可是一时半会又找不到源头木马，格式化电脑时机又还不合适，于是我被迫采用以下治标不治本的方法，批量先删呗。
+--&gt;
+&lt;h2&gt;一. 极简博客被挂马&lt;/h2&gt;
+&lt;p&gt;妈蛋今天才发现几台电脑和服务器被全面挂马，就是下面截图这玩意，感染了所有的html文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/guama.jpg&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;要解决这问题除了要删除所有html文件尾的挂马外，还必须得找到产生这玩意的源头木马kill它。
+可是一时半会又找不到源头木马，格式化电脑时机又还不合适，于是我被迫采用以下治标不治本的方法，批量先删呗。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/delma.jpg&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;文本替换工具&lt;a href=&quot;http://yunpan.cn/c3RF9ubP4Nix6&quot;&gt;&lt;a href=&quot;http://yunpan.cn/c3RF9ubP4Nix6&quot;&gt;http://yunpan.cn/c3RF9ubP4Nix6&lt;/a&gt;&lt;/a&gt; 访问密码 6d31 。&lt;/p&gt;
+&lt;h2&gt;二. 野火烧不尽，春风吹又生&lt;/h2&gt;
+&lt;p&gt;挂马删了过10几分钟又给重生了，暂时不费时间对抗他，好在它在服务器上繁殖不了，目前只能每次上传svn和服务器先删一次了，等到合适时机格式化它吧。&lt;/p&gt;
+&lt;h2&gt;结束语&lt;/h2&gt;
+&lt;p&gt;这个博客来写写读后感，顺便也记录下解决各种问题的过程，今天就先粗暴地杀杀这挂马吧，杀完睡觉。&lt;/p&gt;            </description>
+            <pubDate>2015-12-09 11:23:54</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/delma.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/delma.html</guid>
+                                               <category>删除挂马</category>
+                                    </item>
+                <item>
+            <title>欢迎使用GitBlog</title>
+            <description>
+            &lt;!--
+author: jockchou
+head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
+date: 2015-07-31
+title: 欢迎使用GitBlog
+tags: GitBlog
+category: GitBlog
+status: publish
+summary: GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+--&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logo_64x64.png&quot; alt=&quot;gitblog-logo&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;一. 简介&lt;/h2&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
+&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用Markdown  &lt;/li&gt;
+&lt;li&gt;评论框  &lt;/li&gt;
+&lt;li&gt;代码高亮  &lt;/li&gt;
+&lt;li&gt;PV统计  &lt;/li&gt;
+&lt;li&gt;Latex数学公式  &lt;/li&gt;
+&lt;li&gt;自制主题  &lt;/li&gt;
+&lt;li&gt;响应式  &lt;/li&gt;
+&lt;li&gt;全站静态导出  &lt;/li&gt;
+&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
+&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
+&lt;li&gt;可全站静态导出  &lt;/li&gt;
+&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
+&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
+&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;四. 环境要求&lt;/h2&gt;
+&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
+&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
+&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
+&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
+&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;六. 详细说明&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/install.html&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/config.html&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/export.html&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/update.html&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
+&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jockchou.gitblog.cn&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://gitblogdoc.sinaapp.com&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zxy.link&quot;&gt;zxy&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;九. 感谢&lt;/h2&gt;
+&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
+&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
+作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;            </description>
+            <pubDate>2015-12-08 12:36:45</pubDate>
+            <link>http://jw.dazuxinxin.com/blog/welcome.html</link>
+            <guid isPermaLink="true">http://jw.dazuxinxin.com/blog/welcome.html</guid>
+                                               <category>GitBlog</category>
+                                    </item>
+            </channel>
+</rss>
